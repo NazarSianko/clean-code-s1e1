@@ -11,16 +11,16 @@
   <a class="head-content__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </section>
 <section class="center-content">
-  <p id="center-content__p">
-    <h3 for="center-content__new-task" class ="add-title title">Add Item</h3>
+<p id="center-content__block">
+    <label for="center-content__new-task" class ="add-title">Add Item</label>
     <div class="center-content__item task">
     <input id="center-content__new-task" class="center-content__item task" type="text">
     <button class="center-content__btn task-btn">Add</button>
-    </div>
-</p>
+    </div></p>
+
 <h3 class = "todo-title title">Todo</h3>
 <ul class = "list" id="incomplete-task">
-  <li>
+  <li id = "list-item">
     <input type="checkbox">
     <label class="incomplete-task__item task">Pay Bills</label>
     <input type="text" class="incomplete-task__item task">
@@ -29,7 +29,7 @@
       <img src="./remove.svg" alt ="remove">
     </button>
   </li>
-  <li class="incomplete-task__editMode editMode">
+  <li class="incomplete-task__editMode editMode" id ="list-item">
     <input type="checkbox">
     <label class="incomplete-task__item task">Go Shopping</label>
     <input type="text" value="Go Shopping" class="incomplete-task__item task">
@@ -41,7 +41,7 @@
 </ul>
 <h3 class = "complete-title title">Completed</h3>
 <ul class = "list" id ="complete-task">
-  <li>
+  <li id = "list-item">
     <input type="checkbox" checked>
     <label class="complete-task__item task">See the Doctor</label>
     <input type="text" class="complete-task__item task">
